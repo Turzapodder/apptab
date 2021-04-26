@@ -1,0 +1,611 @@
+/*-----------------------------------------------------------------------------------
+
+	Template Name: Applab
+	Template URI: http://www.applab.com
+	Description: online APP Service
+	Author: Turza Podder
+	Author URI: http://www.turzapodder.github.io
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+.container
+{
+	width: 70%;
+	margin: 0 auto; 
+}
+.main-menu
+{
+	overflow: hidden;
+	background-color: #fdfdfe;
+}
+.main-menu h2
+{
+	font-size:35px;
+	float: left;
+	overflow: hidden;
+	padding-top: 100px;
+	padding-bottom: 20px;
+	color: #fcae61;
+}
+.main-menu h2 span
+{
+	color: #242f51;
+
+}
+.main-menu nav ul
+{
+	float: right;
+	overflow: hidden;
+	list-style: none;
+}
+.main-menu nav ul li
+{
+	float: left;
+	overflow: hidden;
+	padding-top: 120px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+.main-menu nav ul li a
+{
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 600;
+	color: #242f51;
+	opacity: .8;
+	letter-spacing: -1px;
+}
+.main-menu nav ul li a:hover
+{
+	color: #fcae61;
+	transition: 0.3s;
+	
+}
+.main-menu .btn
+{
+	background-color: #2500f9;
+	padding: 15px 30px;
+	border-radius: 30px;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.banner-section
+{
+	overflow: hidden;;
+	background-color: #fdfdfe;
+	background: url('images/header.png') no-repeat 0 0 / 100% 100%;
+	min-height: 1000px;
+}
+.banner-section h1
+{
+	font-weight: bold;
+	font-size: 70px;
+	line-height: 1.5em;
+	opacity: .7;
+	width: 50%;
+	padding-top: 250px;
+	padding-left: 30px;
+}
+.banner-section p
+{
+	font-weight: 600;
+	color: #616368;
+	line-height: 30px;
+	padding-left: 30px;
+	font-size: 20px;
+	width: 50%;
+	opacity: 0.7;
+	overflow: hidden;
+}
+.banner-section .btns
+{
+	overflow: hidden;
+	padding-top: 50px;
+	padding-left: 30px;
+}
+.banner-section .btn1
+{
+	background-color: #2500f9;
+	padding: 15px 30px;
+	border-radius: 30px;
+	text-decoration: none;
+	color: #ffffff;
+	display: inline-block;
+	margin-right: 30px;
+	font-weight: bold;
+
+}
+.banner-section .btn2
+{
+	background-color: #ffffff;
+	padding: 15px 30px;
+	border-radius: 30px;
+	text-decoration: none;
+	color: #2500f9;
+	border: 1px solid #2500f9;
+	display: inline-block;
+	font-weight: bold;
+}
+.banner-section .btn2:hover
+{
+	background-color: #2500f9;
+	padding: 15px 30px;
+	border-radius: 30px;
+	text-decoration: none;
+	color: #ffffff;
+	display: inline-block;
+	margin-right: 30px;
+	font-weight: bold;
+	transition: .3s;
+}
+.companies
+{
+	overflow: hidden;
+	text-align: center;
+}
+.companies h3
+{
+	font-weight: 600;
+	opacity: 0.9;
+	font-size: 20px;
+	color: #242f51;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	letter-spacing: -1px;
+	word-spacing: 2px;
+}
+.companies .row
+{
+	overflow: hidden;
+}
+
+
+.companies .row .col-1-5 {
+    padding: 15px 30px;
+    display: inline-block;
+    margin: 0px 20px;
+}
+.companies .row img {
+    width: 210px;
+    height: 100px;
+    display: block;
+}
+.feature {
+    overflow: hidden;
+    margin-top: 200px;
+    padding-bottom: 200px;
+    background-image: url(images/phone.png);
+    background-repeat: no-repeat;
+    background-position: 20% 60%;
+}
+.feature .side-sec
+{
+	width: 50%;
+	float: right;
+	overflow: hidden;
+}
+.feature h2
+{
+	font-size: 40px;
+	color: #242f51;
+	line-height: 1.3em;
+	opacity: 0.9;
+
+}
+.feature p {
+    font-size: 20px;
+    color: #242f51;
+    line-height: 1.5em;
+    opacity: 0.7;
+    padding-top: 25px;
+    padding-right: 100px;
+    font-weight: 600;
+}
+.feature .row {
+    margin-top: 50px;
+    overflow: hidden;
+}
+.feature .row .col-1 {
+    float: left;
+    padding-right: 60px;
+    padding-top: 50px;
+}
+.feature .row .col-2 {
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+.col-2 h3 {
+    color: #3a4462;
+    font-size: 30px;
+}
+
+.text
+{
+	overflow: hidden;
+}
+.text .col-1-2
+{
+	width: 45%;
+	float: left;
+	overflow: hidden;
+	margin-left: 30px;
+} 
+.text h2
+{
+	font-size: 45px;
+	color: #242f51;
+	line-height: 1.3em;
+	opacity: 0.9;
+	padding: 0 40px;
+
+}
+.vr
+{
+	border: 1px solid #b9b9b8;
+	height: 200px;
+	float: left;
+	overflow: hidden;
+}
+.text p
+{
+	margin-left: 30px;
+	font-size: 20px;
+	color: #242f51;
+    line-height: 1.3em;
+    opacity: 0.7;
+    font-weight: normal;
+    padding-top: 50px;
+}
+.facilities
+{
+	overflow: hidden;
+	margin-top: 100px;
+}
+.col-1-3
+{
+	width: 33.33%;
+	float: left;
+	overflow: hidden;
+	padding: 50px;
+
+}
+.col-1-3 img
+{
+	width: 120px;
+	height: auto;
+
+}
+.col-1-3 h4
+{
+	font-size: 25px;
+	color: #f55767;
+	opacity: 0.8;
+	padding-top: 30px;
+}
+.col-1-3 p
+{
+	font-size: 20px;
+	color: #242f51;
+	line-height: 1.5em;
+	opacity: 0.8;
+	padding-top: 10px;
+	font-weight: 600;
+
+}
+.col-1-3 .n2
+{
+	color: #2563ff;
+}
+.col-1-3 .n3
+{
+	color: #40975f;
+}
+
+.learn-more
+{
+	overflow: hidden;
+    margin-top: 100px;
+    padding-bottom: 200px;
+    background-image: url(images/techs.png);
+    background-repeat: no-repeat;
+    background-position: 20% 60%;
+}
+
+.learn-more-texts
+{
+	width: 50%;
+	float: right;
+	overflow: hidden;
+	margin-top: 100px;
+
+}
+.learn-more h2
+{
+	font-size: 40px;
+	color: #242f51;
+	line-height: 1.3em;
+	opacity: 0.9;
+}
+.learn-more p
+{
+	font-size: 20px;
+    color: #242f51;
+    line-height: 1.5em;
+    opacity: 0.7;
+    padding-top: 25px;
+    padding-right: 100px;
+    font-weight: 600;
+} 
+.learn-more .btn
+{
+	margin-top: 40px;
+	background-color: #2500f9;
+	padding: 15px 30px;
+	border-radius: 30px;
+	text-decoration: none;
+	color: #ffffff;
+	display: inline-block;
+	margin-right: 30px;
+	font-weight: bold;
+	border: 1px solid transparent;
+}
+.learn-more .btn:hover
+{
+	margin-top: 40px;
+	background-color: #ffffff;
+	padding: 15px 30px;
+	border-radius: 30px;
+	text-decoration: none;
+	color: #2500f9;
+	display: inline-block;
+	margin-right: 30px;
+	font-weight: bold;
+	border: 1px solid #2500f9;
+}
+h4
+{
+	font-size: 25px;
+	color: #f55767;
+	opacity: 0.8;
+	padding-top: 30px;
+}
+h3
+{
+	font-size: 25px;
+	color:  #242f51;
+	opacity: 0.8;
+	padding-top: 30px;
+}
+p
+{
+	font-size: 20px;
+    color: #242f51;
+    line-height: 1.5em;
+    opacity: 0.7;
+    font-weight: 600;
+}
+.app-f
+{
+	overflow: hidden;
+	margin-top: 50px;
+	text-align: center;
+}
+.app-f h2
+{
+	font-size: 40px;
+	color: #242f51;
+	line-height: 1.3em;
+	opacity: 0.9;
+}
+.app-f .col-1-6
+{
+	float: left;
+	width: 33.33%;
+	overflow: hidden;
+	padding: 50px;
+}
+.heading p
+{
+	margin-top: 30px;
+}
+.col-1-6 h3
+{
+	margin-top: 15px;
+}
+.col-1-6 p
+{
+	margin-top: 20px;
+}
+.col-1-6 img
+{
+	width: 120px;
+	height: auto; 
+}
+
+.planning
+{
+	overflow: hidden;
+    margin-top: 100px;
+    padding-bottom: 200px;
+    background-image: url(images/planning.png);
+    background-repeat: no-repeat;
+    background-position: 85% 50%;
+}
+.planning .heading
+{
+	padding-bottom: 50px;
+}
+.planning .heading h2
+{
+	font-size: 40px;
+	color: #242f51;
+	line-height: 1.3em;
+	opacity: 0.9;
+}
+.planning-side
+{
+	width: 50%;
+	overflow: hidden;
+}
+.col-1-12
+{
+	width: 50%;
+	float: left;
+	padding-left: 0px;
+	padding-top : 20px;
+	padding-bottom: 20px;
+
+	padding-right: 20px;
+}
+.col-1-12 h3
+{
+	padding-top: 15px;
+}
+.col-1-12 p
+{
+	padding-top: 15px;
+}
+.planning-side .btn
+{
+	margin-top: 40px;
+	background-color: #2500f9;
+	padding: 15px 40px;
+	border-radius: 30px;
+	text-decoration: none;
+	color: #ffffff;
+	display: inline-block;
+	font-weight: bold;
+	border: 1px solid transparent;
+}
+.planning-side .btn:hover
+{
+	margin-top: 40px;
+	background-color: #ffffff;
+	padding: 15px 40px;
+	border-radius: 30px;
+	text-decoration: none;
+	color: #2500f9;
+	display: inline-block;
+	font-weight: bold;
+	border: 1px solid #2500f9;
+}
+.see-all
+{
+	padding-left: 10px;
+}
+.download-area
+{
+	overflow: hidden;
+
+    padding-bottom: 300px;
+    background-image: url(images/app-down.png);
+    background-repeat: no-repeat;
+    background-position: 70% 60%;
+}
+.d-texts
+{
+	padding-top: 100px;
+	width: 50%;
+	overflow: hidden;
+	float: left;
+}
+.d-texts h2
+{
+	font-size: 40px;
+	color: #242f51;
+	line-height: 1.3em;
+	opacity: 0.9;
+}
+
+.footer
+{
+	background-color: #09142e;
+	overflow: hidden;
+}
+.footer h2
+{
+	font-size:35px;
+	padding-top: 100px;
+	padding-bottom: 20px;
+	color: #fcae61;
+	text-align: center;
+}
+.footer h2 span
+{
+	color: #ffffff;
+}
+
+.footer .footer-menu
+{
+	padding-top: 15px;
+	text-align: center;
+}
+.footer nav ul
+{
+	list-style: none;
+}
+.footer nav ul li 
+{
+	padding: 0 10px;
+	display: inline-block;
+	padding-bottom: 30px;
+}
+.footer nav ul li a
+{
+	text-decoration: none;
+	font-size: 20px;
+	color: #fdfdfe;
+	opacity: .8;
+	letter-spacing: -1px;
+}
+.footer nav ul li a:hover
+{
+	transition: 0.3s;
+	color: #fcae61;
+}
+.footer .social-icons
+{
+	text-align: center;
+}
+.footer .social-icons .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook, .fa-twitter, .fa-instagram, .fa-dribbble {
+  color: white;
+}
+
+.credit
+{
+	padding: 100px 0px;
+	text-align: center;
+}
+.credit p
+{
+	color: #5f636e;
+	font-size: 14px;
+}
