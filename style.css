@@ -85,12 +85,13 @@
 	color: #ffffff;
 }
 
-.banner-section
-{
-	overflow: hidden;;
-	background-color: #fdfdfe;
-	background: url('images/header.png') no-repeat 0 0 / 100% 100%;
-	min-height: 1000px;
+.banner-section {
+    overflow: hidden;
+    padding-bottom: 300px;
+    background-image: url(images/Header.png);
+    background-repeat: no-repeat;
+    background-position: 70% 60%;
+    background-repeat-x: repeat;
 }
 .banner-section h1
 {
